@@ -1,0 +1,14 @@
+[package]
+name = "the-modding-tree-rs"
+version = "0.1.0"
+authors = ["Patfr"]
+description = "A Rust port of The-Modding-Tree"
+license = "MIT"
+repository = "https://github.com/yourgithubusername/hello-wasm"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
